@@ -1,0 +1,152 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.bodyStyle {
+    font-family: 'Poppins', sans-serif;
+    background-color: #080808;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: teal;
+}
+
+.contantainerLogo {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.ContainerTexto {
+    float: none;
+    text-align: left;
+    width: 100%;
+    font-size: 24px;
+}
+
+.containerMSWA {
+    background-color: #fff;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    min-height: 800px;
+    border-radius: 10px;
+}
+
+.containerNumero {
+    margin: auto;
+    width: 50%;
+    padding: 0 10px 10px 10px;
+    text-align: left;
+}
+
+.imageLogo {
+    width: 200px;
+}
+
+input.button-add {
+    background-image: url(image.png); /* 16px x 16px */
+    background-repeat: no-repeat; /* make the background image appear only once */
+    background-position: 0px 0px; /* equivalent to 'top left' */
+    cursor: pointer; /* make the cursor like hovering over an <a> element */
+    height: 52px; /* make this the size of your image */
+    padding-left: 48px; /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    width: 275px;
+}
+
+input::placeholder {
+    color: lightblue;
+}
+
+.adsRightDiv {
+    width: 210px;
+    margin: auto;
+    text-align: center;
+}
+
+.adsMiddleMobileDiv {
+    width: 100%;
+    display: none;
+    margin: auto;
+    text-align: center;
+}
+
+.textBoxTexto {
+    width: 100%;
+    margin: 5px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 700px) {
+    .imageLogo {
+        width: 100px;
+    }
+
+    h1 {
+        font-family: 'Roboto',sans-serif;
+        font-size: 24px;
+        color: teal;
+    }
+
+    .adsRightDiv {
+        display: none;
+    }
+
+    .adsMiddleMobileDiv {
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: left;
+        width: 100%;
+    }
+
+    .containerMSWA {
+        background-color: #fff;
+        margin: auto;
+        width: 95%;
+        padding: 5px;
+        text-align: center;
+        min-height: 500px;
+        vertical-align: middle;
+    }
+
+    .containerNumero {
+        margin: auto;
+        width: 95%;
+        padding: 5px;
+        text-align: left;
+    }
+
+    .contantainerLogo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ContainerTexto {
+        float: none;
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .textBoxTexto {
+        width: 100%;
+        margin: 5px;
+        font-size: 18px;
+    }
+}
+
+
